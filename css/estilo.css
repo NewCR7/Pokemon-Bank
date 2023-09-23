@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado con fondo */
+/* Estilos para el encabezado con fondo de imagen */
+header {
+  background-image: url('../img/ba.avif'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajustar imagen al tamaño del encabezado */
+  background-position: center; /* Posición de la imagen */
+  color: white;
+  text-align: center;
+  padding: 2rem 0; /* Espaciado interno */
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+/* Estilos para los artículos */
+article {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.article-left {
+  flex: 1;
+}
+
+aside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para la imagen */
+img {
+  width: 550px; /* Ancho de la imagen */
+  border: 2px solid #333; /* Borde de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  transition: transform 0.3s ease; /* Transición al hacer hover */
+
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+h1{
+  margin-top: 1px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+
+}
+h2{
+  margin-top: 1px;
+  background-color: #1C2C5B;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  font-size: 36px;
+}
