@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+    background-image: url(../img/pokemon_patron_00001.png);
+    /* max-width: 100%;
+    max-height: 100%;   */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pokemon_fondo_azul{
+    background-color: white;
+    background-image: url(../img/fondo_00001.svg);
+    /* max-width: 100%;
+    max-height: 100%;   */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.btn_pokemon{
+    background-color: white;
+    background-image: url(../img/pokemon_patron_00001.png);
+    color: #4483be;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.btn_pokemon:hover{
+    background-color: #4483be;
+    background-image: url();
+    color: white;
+    border: 1px solid white;
+}
+
+.btn_pokemon2{
+    background-color: white;
+    background-image: url(../img/pokemon_patron_00001.png);
+    color: #4483be;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    /* margin: 2px; */
+}
+
+.btn_pokemon2:hover{
+    background-color: #4483be;
+    background-image: url();
+    color: white;
+    border: 1px solid white;
+}
+
+.IM{
+    color: red;
+}
+
